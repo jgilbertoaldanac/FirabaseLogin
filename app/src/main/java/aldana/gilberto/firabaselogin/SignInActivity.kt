@@ -36,6 +36,12 @@ class SignInActivity : AppCompatActivity() {
                 }
             }
         }
+
+        binding.signUpTextView.setOnClickListener{
+            val intent = Intent(this, SignUpActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun SignIn(email:String, password: String){

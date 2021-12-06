@@ -2,6 +2,7 @@ package aldana.gilberto.firabaselogin
 
 import aldana.gilberto.firabaselogin.databinding.ActivityMainBinding
 import aldana.gilberto.firabaselogin.databinding.ActivitySignInBinding
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.auth.FirebaseAuth
@@ -20,5 +21,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         auth = Firebase.auth
+
+        signOut()
+    }
+
+    private fun signOut(){
+        Firebase.auth.signOut()
+        val intent = Intent(this, SignInActivity::class.java)
+        startActivity(intent)
     }
 }
