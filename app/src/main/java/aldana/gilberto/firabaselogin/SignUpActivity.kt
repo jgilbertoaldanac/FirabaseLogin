@@ -1,6 +1,5 @@
 package aldana.gilberto.firabaselogin
 
-import aldana.gilberto.firabaselogin.databinding.ActivitySignInBinding
 import aldana.gilberto.firabaselogin.databinding.ActivitySignUpBinding
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -31,7 +30,7 @@ class SignUpActivity : AppCompatActivity() {
             val mPassword = binding.emailEditText.text.toString()
             val mRepeatPassword = binding.repeatPasswordEditText.text.toString()
             val passwordRegex = Pattern.compile("^"+
-            "(?=.*[-@#$%^&+=]" + //Al menos 1 caractér especial
+            "(?=.*[-@#$%^&+=])" + //Al menos 1 caractér especial
             ".{6,}" + // Al menos 4 caracteres
             "$" )
 
