@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "313891343744",
+    "project_id": "fir-login-363ac",
+    "storage_bucket": "fir-login-363ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313891343744:android:eb4a99c055b7e4f2028565",
+        "android_client_info": {
+          "package_name": "aldana.gilberto.firabaselogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313891343744-265di1hioginf4hrje9orkuh0gc7dmr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFYxkjhxVgaAIiBvEDk5Zgt8VapPhJcUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313891343744-265di1hioginf4hrje9orkuh0gc7dmr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
